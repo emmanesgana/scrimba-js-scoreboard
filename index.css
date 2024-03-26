@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    width: 100%;
+    height: 385px; 
+    color: #fff;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px auto 15px auto;
+}
+
+.score-border {
+    display: flex;
+}
+
+#home-score, #guest-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    padding-top: 15px;
+    width: 155px;
+    background-color: black;
+    color: #F94F6D;
+    border-radius: 5px;
+}
+
+.btn-guest {
+    margin-top: 30px;
+}
+
+.btn-guest button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 45px;
+    height: 45px;
+    margin: 0 2px;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-color: #9AABD8;
+}
